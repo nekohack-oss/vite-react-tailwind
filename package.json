@@ -1,0 +1,27 @@
+{
+  "name": "vite-react-tailwind",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint ./ --ext ts,tsx",
+    "lint:fix": "eslint ./ --ext ts,tsx --fix"
+  },
+  "dependencies": {
+    "@pika/react": "^16.13.1",
+    "@pika/react-dom": "^16.13.1",
+    "tailwindcss": "^1.9.1"
+  },
+  "devDependencies": {
+    "@nekohack/eslint-config-react": "^0.3.0",
+    "@types/react": "^16.9.49",
+    "@types/react-dom": "^16.9.8",
+    "@typescript-eslint/eslint-plugin": "^3.9.1",
+    "@typescript-eslint/parser": "^3.9.1",
+    "autoprefixer": "^9.8.6",
+    "eslint": "^7.7.0",
+    "typescript": "^3.9.7",
+    "vite": "^1.0.0-rc.4",
+    "vite-plugin-react": "^3.0.2"
+  }
+}
